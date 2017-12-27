@@ -1,0 +1,16 @@
+pi@raspberrypi:~ $ gcc -o timings timings.c -O3 && sudo nice -20 ./timings
+1 cycles = 104 ns
+26 cycles = 156 ns
+90 cycles = 208 ns
+152 cycles = 260 ns
+214 cycles = 312 ns
+276 cycles = 364 ns
+340 cycles = 416 ns
+402 cycles = 468 ns
+440 cycles = 470 ns
+443 cycles = 469 ns
+458 cycles = 466 ns
+459 cycles = 467 ns
+462 cycles = 468 ns
+464 cycles = 520 ns
+526 cycles = 572 ns
